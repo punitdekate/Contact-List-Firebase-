@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/punitdekate/Contact-List-Firebase-/static/css/main.2058bb25.css",
+    "main.js": "/punitdekate/Contact-List-Firebase-/static/js/main.cf63af75.js",
+    "static/media/address-book.png": "/punitdekate/Contact-List-Firebase-/static/media/address-book.76c001289db4d1f5044a.png",
+    "index.html": "/punitdekate/Contact-List-Firebase-/index.html",
+    "main.2058bb25.css.map": "/punitdekate/Contact-List-Firebase-/static/css/main.2058bb25.css.map",
+    "main.cf63af75.js.map": "/punitdekate/Contact-List-Firebase-/static/js/main.cf63af75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2058bb25.css",
+    "static/js/main.cf63af75.js"
+  ]
+}

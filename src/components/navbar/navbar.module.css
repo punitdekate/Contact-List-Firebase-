@@ -1,0 +1,106 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #283593; /* Deep blue */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left Section: Logo and App Name */
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo Style */
+  .logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: contain;
+    border: 2px solid white;
+  }
+  
+  /* App Name Style */
+  .appName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* Right Section: Search Bar */
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Search Bar Style */
+  .searchBar {
+    width: 200px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .searchBar:focus {
+    width: 250px;
+    background-color: #fff;
+    color: #283593;
+  }
+
+  /* Search Button Style */
+.searchButton {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #3949ab; /* Slightly lighter blue than navbar */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .searchButton:hover {
+    background-color: #5c6bc0; /* Hover color */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .searchButton:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+  }
+  
+
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .left {
+      margin-bottom: 10px;
+    }
+  
+    .searchBar {
+      width: 100%;
+      max-width: 300px;
+      .searchButton {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+      }
+    }
+  }
+  

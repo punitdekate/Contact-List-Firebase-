@@ -1,0 +1,45 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contactForm h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contactForm input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contactForm button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .contactForm button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error Message Styling */
+.errorMessage {
+    color: #d32f2f; /* Red color for error */
+    background-color: #ffebee; /* Light red background */
+    padding: 10px;
+    border: 1px solid #d32f2f; /* Border matching the text color */
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-bottom: 10px; /* Space below the error message */
+    font-family: "Roboto", sans-serif;
+    text-align: center; /* Center align the error message */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for emphasis */
+  }
+  

@@ -1,0 +1,120 @@
+.contactList {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+  }
+  
+  .contactList h2 {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 24px;
+  }
+  
+  .contactTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 1px solid #ddd; /* Add border around the entire table */
+  }
+  
+  .contactTable th,
+  .contactTable td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd; /* Add borders to each cell */
+    vertical-align: middle;
+  }
+  
+  .contactTable th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .contactRow:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .emailLink {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .emailLink:hover {
+    text-decoration: underline;
+  }
+  
+  /* Action Buttons */
+  .actionButtons {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  
+  .editButton,
+  .deleteButton,
+  .loveButton {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    width: 70px;
+    background-color: white; /* Removed */
+    color: inherit; /* Inherits text color */
+  }
+  
+  /* Button Styling */
+  .editButton {
+    color: blue;
+  }
+  
+  .deleteButton {
+    color: red;
+  }
+  
+  .loveButton {
+    color: rgb(56, 106, 231);
+  }
+  
+  /* Hover Effects */
+  .editButton:hover {
+    text-decoration: underline;
+  }
+  
+  .deleteButton:hover {
+    text-decoration: underline;
+  }
+  
+  .loveButton:hover {
+    text-decoration: underline;
+  }
+
+  .loveRedButton{
+    color :red;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    width: 70px;
+    background-color: white; /* Removed */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contactTable th,
+    .contactTable td {
+      font-size: 12px;
+    }
+  
+    .editButton,
+    .deleteButton,
+    .loveButton {
+      font-size: 0.8rem;
+      padding: 4px 8px;
+    }
+  }
+  
